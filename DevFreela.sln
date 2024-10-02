@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFreela.API", "DevFreela.API\DevFreela.API.csproj", "{CDCD6664-B9D1-4008-A8CF-E0FC7A18FEAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2225B1D1-CF4F-4980-ACA8-A6344A7138C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevFreela.API", "DevFreela.API", "{298C1FB0-D907-45B8-8E2E-F6E6AB4E61D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevFreela.Application", "DevFreela.Application", "{52EBE931-E430-4990-8F17-2A59C5EA6C78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevFreela.Domain", "DevFreela.Domain", "{4E3E67E5-C2A5-4EC5-AB00-361D983ECABA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Devfreela.Infrastructure", "Devfreela.Infrastructure", "{ECC96DDE-3B1E-4245-B65D-25C5D3C7FB0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFreela.Application", "DevFreela.Application\DevFreela.Application.csproj", "{8B09323E-D883-4914-9124-DB60C24DD0B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFreela.Domain", "DevFreela.Domain\DevFreela.Domain.csproj", "{6BB8E402-7A47-4AEA-819E-38CAB162A7BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFreela.Infrastructure", "DevFreela.Infrastructure\DevFreela.Infrastructure.csproj", "{79773760-DA6A-4CEF-AFC5-A6329C68C6EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDCD6664-B9D1-4008-A8CF-E0FC7A18FEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCD6664-B9D1-4008-A8CF-E0FC7A18FEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCD6664-B9D1-4008-A8CF-E0FC7A18FEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCD6664-B9D1-4008-A8CF-E0FC7A18FEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B09323E-D883-4914-9124-DB60C24DD0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B09323E-D883-4914-9124-DB60C24DD0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B09323E-D883-4914-9124-DB60C24DD0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B09323E-D883-4914-9124-DB60C24DD0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB8E402-7A47-4AEA-819E-38CAB162A7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB8E402-7A47-4AEA-819E-38CAB162A7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB8E402-7A47-4AEA-819E-38CAB162A7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB8E402-7A47-4AEA-819E-38CAB162A7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79773760-DA6A-4CEF-AFC5-A6329C68C6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79773760-DA6A-4CEF-AFC5-A6329C68C6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79773760-DA6A-4CEF-AFC5-A6329C68C6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79773760-DA6A-4CEF-AFC5-A6329C68C6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDCD6664-B9D1-4008-A8CF-E0FC7A18FEAB} = {298C1FB0-D907-45B8-8E2E-F6E6AB4E61D3}
+		{298C1FB0-D907-45B8-8E2E-F6E6AB4E61D3} = {2225B1D1-CF4F-4980-ACA8-A6344A7138C0}
+		{52EBE931-E430-4990-8F17-2A59C5EA6C78} = {2225B1D1-CF4F-4980-ACA8-A6344A7138C0}
+		{4E3E67E5-C2A5-4EC5-AB00-361D983ECABA} = {2225B1D1-CF4F-4980-ACA8-A6344A7138C0}
+		{ECC96DDE-3B1E-4245-B65D-25C5D3C7FB0F} = {2225B1D1-CF4F-4980-ACA8-A6344A7138C0}
+		{8B09323E-D883-4914-9124-DB60C24DD0B5} = {52EBE931-E430-4990-8F17-2A59C5EA6C78}
+		{6BB8E402-7A47-4AEA-819E-38CAB162A7BD} = {4E3E67E5-C2A5-4EC5-AB00-361D983ECABA}
+		{79773760-DA6A-4CEF-AFC5-A6329C68C6EE} = {ECC96DDE-3B1E-4245-B65D-25C5D3C7FB0F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72D82CF5-21BA-4D6B-8116-50C0BF48A41F}
+	EndGlobalSection
+EndGlobal
